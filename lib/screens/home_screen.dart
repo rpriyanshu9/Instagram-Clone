@@ -252,9 +252,12 @@ class _HomeScreenState extends State<HomeScreen> {
             Icons.favorite,
             color: Colors.white,
           ),
-          Icon(
-            Icons.account_box,
-            color: Colors.white,
+          CircleAvatar(
+            radius: 14.0,
+            backgroundImage: NetworkImage(
+              "https://cdn.britannica.com/54/188754-050-A3613741/Elon-Musk-2010.jpg",
+            ),
+            backgroundColor: Colors.transparent,
           ),
         ],
       ),
